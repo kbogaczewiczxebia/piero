@@ -1,3 +1,15 @@
-"scripts": {
-  "start": "node index.js"
+{
+  "name": "pierogi-api",
+  "version": "1.0.0",
+  "description": "API zwracające listę rodzajów pierogów",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": "20.x"
+  }
 }
